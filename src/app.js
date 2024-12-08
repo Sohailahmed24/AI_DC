@@ -28,9 +28,9 @@ app.listen(7779,()=>{
 
 
 
-const faultCodeRoutes =require("./routes/faultCode.routes.js")
+const reportRouter =require("./routes/report.routes.js")
 
-app.use("/",faultCodeRoutes)
+app.use("/",reportRouter)
 
 
 module.exports={app}
